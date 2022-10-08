@@ -40,7 +40,7 @@ public class BagMainTest {
         assertEquals(7, bags[3].getCapacity());
     }
 
-    @Test(timeout = 50)
+    @Test(timeout = 500)
     public void TestCountCrossbodyStraps() {
         assertEquals(6, BagMain.countCrossbodyStraps(bags));
     }
